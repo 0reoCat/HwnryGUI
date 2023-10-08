@@ -1,0 +1,12 @@
+local function deleteSeats(obj)
+    for _, child in pairs(obj:GetChildren()) do
+        if child:IsA("Seat") or (child:IsA("Part") and child:FindFirstChild("SeatOccupied")) then
+            child:Destroy()
+        else
+            deleteSeats(child) -- Recursively check children
+        end
+    end
+end
+
+-- Call the function to delete seats from the workspace
+deleteSeats(game.Workspace)
