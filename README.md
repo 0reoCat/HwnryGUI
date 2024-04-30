@@ -1,1 +1,1 @@
-*****Made by Hwnry / Iloveadrienne*****
+*****Made by Hwnry / *****
