@@ -1,1 +1,1 @@
-*****Made by Hwnry / *****
+*****Made by Hwnry *****
